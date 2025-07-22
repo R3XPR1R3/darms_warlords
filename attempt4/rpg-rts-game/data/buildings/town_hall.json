@@ -1,0 +1,74 @@
+{
+  "id": "town_hall",
+  "name": "Ратуша",
+  "description": "Центр поселения, где живут граждане и производятся рабочие",
+  "type": "main",
+  "category": "economic",
+  "size": {
+    "width": 120,
+    "height": 100,
+    "tiles_width": 3,
+    "tiles_height": 2
+  },
+  "cost": {
+    "gold": 0,
+    "wood": 0,
+    "stone": 0,
+    "time": 0
+  },
+  "stats": {
+    "health": 2000,
+    "max_health": 2000,
+    "armor": 10,
+    "sight_range": 200,
+    "population_capacity": 10
+  },
+  "requirements": {
+    "buildings": [],
+    "technologies": [],
+    "resources": {}
+  },
+  "production": {
+    "units": [
+      {
+        "id": "worker",
+        "name": "Рабочий",
+        "cost": {
+          "gold": 50,
+          "food": 1
+        },
+        "time": 15,
+        "population": 1
+      },
+      {
+        "id": "citizen",
+        "name": "Гражданин",
+        "cost": {
+          "gold": 25,
+          "food": 1
+        },
+        "time": 10,
+        "population": 1
+      }
+    ],
+    "technologies": [
+      {
+        "id": "improved_tools",
+        "name": "Улучшенные инструменты",
+        "description": "+20% скорость сбора ресурсов",
+        "cost": {
+          "gold": 100,
+          "wood": 50
+        },
+        "time": 60
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "id": "rally_point",
+      "name": "Точка сбора",
+      "description": "Устанавливает место, куда будут идти новые юниты"
+    }
+  ]
+}

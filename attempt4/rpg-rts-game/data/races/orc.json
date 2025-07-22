@@ -1,0 +1,34 @@
+{
+  "id": "orc",
+  "name": "Орк",
+  "description": "Сильные и агрессивные воины с природной склонностью к бою",
+  "bonuses": {
+    "melee_attack": 6,
+    "health": 30,
+    "intimidation": 5
+  },
+  "penalties": {
+    "intelligence": -5,
+    "mana": -20
+  },
+  "can_breed_with": ["orc", "goblin"],
+  "base_stats": {
+    "health": 140,
+    "stamina": 110,
+    "mana": 5,
+    "speed": 1.8,
+    "vision": 90
+  },
+  "equipment_slots": {
+    "head": true,
+    "torso": true,
+    "lefthand": true,
+    "righthand": true,
+    "legs": true,
+    "feet": true,
+    "back": false,
+    "tail": false,
+    "accessory": false,
+    "tusks": true
+  }
+}

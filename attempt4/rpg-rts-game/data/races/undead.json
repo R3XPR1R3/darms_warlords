@@ -1,0 +1,33 @@
+{
+  "id": "undead",
+  "name": "Нежить",
+  "description": "Хрупкие, но многочисленные благодаря особым механикам",
+  "bonuses": {
+    "death_immunity": true,
+    "resurrection": true,
+    "no_food_cost": true
+  },
+  "penalties": {
+    "health": -40,
+    "holy_weakness": true
+  },
+  "can_breed_with": [],
+  "base_stats": {
+    "health": 40,
+    "stamina": 60,
+    "mana": 40,
+    "speed": 1.8,
+    "vision": 80
+  },
+  "equipment_slots": {
+    "head": true,
+    "torso": true,
+    "lefthand": true,
+    "righthand": true,
+    "legs": true,
+    "feet": true,
+    "back": true,
+    "tail": false,
+    "accessory": false
+  }
+}

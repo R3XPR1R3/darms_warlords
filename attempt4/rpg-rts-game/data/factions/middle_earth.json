@@ -1,0 +1,39 @@
+{
+  "id": "middle_earth",
+  "name": "Middle Earth",
+  "description": "Сбалансированная фракция людей и эльфов",
+  "color": "#0066CC",
+  "allowed_races": ["human", "elf"],
+  "bonuses": {
+    "build_speed": 1.2,
+    "damage_boost": 1.1,
+    "research_speed": 1.1
+  },
+  "penalties": {},
+  "unique_buildings": ["human_barracks", "elven_archery", "mage_tower"],
+  "unique_units": ["knight", "elven_archer", "battle_mage"],
+  "starting_resources": {
+    "gold": 1000,
+    "wood": 500,
+    "stone": 300,
+    "food": 200,
+    "mana": 100
+  },
+  "starting_units": [
+    {
+      "type": "hero",
+      "class": "adrian",
+      "count": 1
+    },
+    {
+      "type": "unit",
+      "class": "worker",
+      "count": 3
+    },
+    {
+      "type": "unit",
+      "class": "warrior",
+      "count": 2
+    }
+  ]
+}

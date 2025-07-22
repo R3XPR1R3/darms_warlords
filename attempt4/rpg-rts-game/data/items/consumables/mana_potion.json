@@ -1,0 +1,20 @@
+{
+  "id": "mana_potion",
+  "name": "Зелье маны",
+  "description": "Магическое зелье, восстанавливает ману",
+  "type": "potion",
+  "subtype": "magic",
+  "rarity": "uncommon",
+  "value": 25,
+  "weight": 0.5,
+  "stackable": true,
+  "max_stack": 10,
+  "usable": true,
+  "use_time": 3,
+  "effects": {
+    "mana_restore": 50,
+    "magic_power_boost": 5
+  },
+  "duration": 60,
+  "allowed_races": ["human", "elf", "undead"]
+}

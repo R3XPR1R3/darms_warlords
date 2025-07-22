@@ -1,0 +1,25 @@
+{
+  "id": "fireball",
+  "name": "Огненный шар",
+  "description": "Метает огненный шар, наносящий магический урон",
+  "type": "active",
+  "target_type": "enemy",
+  "range": 200,
+  "cooldown": 3,
+  "mana_cost": 25,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "magic",
+      "value": "caster.magic_attack + 20",
+      "target": "single"
+    },
+    {
+      "type": "damage",
+      "damage_type": "magic", 
+      "value": "caster.magic_attack * 0.5",
+      "target": "area",
+      "radius": 50
+    }
+  ]
+}

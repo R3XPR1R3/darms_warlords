@@ -1,0 +1,25 @@
+{
+  "id": "bow",
+  "name": "Охотничий лук",
+  "description": "Дальнобойное оружие для точных выстрелов",
+  "type": "weapon",
+  "subtype": "ranged",
+  "rarity": "common",
+  "value": 40,
+  "weight": 2,
+  "durability": 80,
+  "max_durability": 80,
+  "requirements": {
+    "dexterity": 12
+  },
+  "stats": {
+    "ranged_attack": 18,
+    "range": 200,
+    "attack_speed": 0.8
+  },
+  "abilities": ["shoot"],
+  "ammunition": "arrow",
+  "equippable_slot": "righthand",
+  "allowed_classes": ["archer", "ranger", "scout"],
+  "allowed_races": ["human", "elf"]
+}

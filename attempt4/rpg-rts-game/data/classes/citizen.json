@@ -1,0 +1,20 @@
+{
+  "id": "citizen",
+  "name": "Гражданин",
+  "description": "Базовый класс, может только добывать ресурсы",
+  "can_learn": true,
+  "learning_requirements": {},
+  "abilities": ["gather"],
+  "restrictions": {
+    "build": false,
+    "craft": false,
+    "fight": true,
+    "cast": false
+  },
+  "allowed_weapons": [],
+  "allowed_armor": ["cloth"],
+  "stat_bonuses": {},
+  "learning_tree": ["worker", "warrior", "archer"]
+}
+
+

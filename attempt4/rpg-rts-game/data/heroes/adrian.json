@@ -1,0 +1,25 @@
+{
+  "id": "adrian",
+  "name": "Adrian the Brave",
+  "description": "Легендарный воин с уникальными способностями лидерства",
+  "can_learn": false,
+  "is_hero": true,
+  "unique_abilities": ["battle_cry", "charge", "leadership"],
+  "allowed_weapons": ["legendary_sword", "magic_weapon", "any"],
+  "allowed_armor": ["any"],
+  "stat_bonuses": {
+    "melee_attack": 15,
+    "defense": 10,
+    "health": 50,
+    "leadership": 10
+  },
+  "talent_tree": {
+    "combat": ["improved_strike", "weapon_mastery", "armor_penetration"],
+    "leadership": ["inspire", "rally", "tactical_genius"],
+    "survival": ["tough_skin", "regeneration", "last_stand"]
+  },
+  "starting_equipment": {
+    "righthand": "hero_sword",
+    "torso": "hero_armor"
+  }
+}

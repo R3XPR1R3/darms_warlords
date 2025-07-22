@@ -1,0 +1,25 @@
+{
+  "id": "orcish_horde",
+  "name": "Орочья Орда",
+  "description": "Агрессивная фракция, полагающаяся на грубую силу",
+  "color": "#CC0000",
+  "allowed_races": ["orc", "goblin"],
+  "bonuses": {
+    "melee_damage": 1.2,
+    "unit_production_speed": 1.5,
+    "health_boost": 1.1
+  },
+  "penalties": {
+    "research_speed": 0.7,
+    "building_hp": 0.8
+  },
+  "unique_buildings": ["war_camp", "goblin_workshop", "rage_pit"],
+  "unique_units": ["berserker", "orc_shaman", "war_wolf"],
+  "starting_resources": {
+    "gold": 800,
+    "wood": 600,
+    "stone": 200,
+    "food": 300,
+    "rage_potions": 5
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "chainmail",
+  "name": "Кольчуга",
+  "description": "Прочная защита из металлических колец",
+  "type": "armor",
+  "subtype": "medium",
+  "rarity": "uncommon",
+  "value": 80,
+  "weight": 15,
+  "durability": 120,
+  "max_durability": 120,
+  "requirements": {
+    "strength": 15
+  },
+  "stats": {
+    "defense": 6,
+    "speed": -15
+  },
+  "equippable_slot": "torso",
+  "allowed_classes": ["warrior", "knight", "paladin"],
+  "allowed_races": ["human", "orc"]
+}

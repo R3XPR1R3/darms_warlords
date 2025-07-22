@@ -1,0 +1,23 @@
+{
+  "id": "staff",
+  "name": "Магический посох",
+  "description": "Усиливает магические способности",
+  "type": "weapon",
+  "subtype": "magic",
+  "rarity": "common",
+  "value": 60,
+  "weight": 2,
+  "durability": 80,
+  "max_durability": 80,
+  "requirements": {
+    "intelligence": 12
+  },
+  "stats": {
+    "magic_attack": 20,
+    "mana": 25
+  },
+  "abilities": ["cast_magic"],
+  "equippable_slot": "righthand",
+  "allowed_classes": ["mage", "wizard", "sorcerer"],
+  "allowed_races": ["human", "elf"]
+}

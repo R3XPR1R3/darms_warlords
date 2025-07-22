@@ -1,0 +1,31 @@
+{
+  "id": "orcs_and_goblins",
+  "name": "Орки и Гоблины",
+  "version": "1.0.0",
+  "author": "GameModer",
+  "description": "Добавляет расы орков и гоблинов с уникальными способностями",
+  "compatibility": {
+    "game_version": "1.0.0",
+    "required_mods": [],
+    "conflicts": []
+  },
+  "content": {
+    "races": ["orc.json", "goblin.json"],
+    "classes": ["berserker.json", "scout.json"],
+    "factions": ["orcish_horde.json"],
+    "items": ["orc_axe.json", "goblin_dagger.json"],
+    "abilities": ["rage.json", "stealth.json"]
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2024-01-15",
+      "changes": [
+        "Initial release",
+        "Added orc and goblin races",
+        "Added berserker and scout classes",
+        "Added orcish horde faction"
+      ]
+    }
+  ]
+}

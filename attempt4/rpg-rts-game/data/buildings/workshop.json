@@ -1,0 +1,68 @@
+{
+  "id": "workshop",
+  "name": "Мастерская",
+  "description": "Производит инструменты и улучшает экипировку",
+  "type": "economic",
+  "category": "crafting",
+  "size": {
+    "width": 80,
+    "height": 60,
+    "tiles_width": 2,
+    "tiles_height": 1
+  },
+  "cost": {
+    "gold": 150,
+    "wood": 100,
+    "stone": 25,
+    "time": 30
+  },
+  "stats": {
+    "health": 600,
+    "max_health": 600,
+    "armor": 2,
+    "sight_range": 100
+  },
+  "requirements": {
+    "buildings": ["town_hall"]
+  },
+  "production": {
+    "items": [
+      {
+        "id": "iron_sword",
+        "name": "Железный меч",
+        "cost": {
+          "gold": 75,
+          "iron": 15,
+          "wood": 5
+        },
+        "time": 25
+      },
+      {
+        "id": "leather_armor",
+        "name": "Кожаная броня",
+        "cost": {
+          "gold": 50,
+          "leather": 10
+        },
+        "time": 20
+      }
+    ],
+    "technologies": [
+      {
+        "id": "improved_crafting",
+        "name": "Улучшенное ремесло",
+        "description": "-25% время изготовления предметов",
+        "cost": {
+          "gold": 200,
+          "iron": 30
+        },
+        "time": 90
+      }
+    ]
+  },
+  "repair": {
+    "can_repair": true,
+    "repair_rate": 5,
+    "repair_cost_multiplier": 0.2
+  }
+}

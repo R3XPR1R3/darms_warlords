@@ -1,0 +1,20 @@
+{
+  "id": "leather_armor",
+  "name": "Кожаная броня",
+  "description": "Легкая защита из обработанной кожи",
+  "type": "armor",
+  "subtype": "light",
+  "rarity": "common",
+  "value": 30,
+  "weight": 5,
+  "durability": 60,
+  "max_durability": 60,
+  "requirements": {},
+  "stats": {
+    "defense": 3,
+    "speed": -5
+  },
+  "equippable_slot": "torso",
+  "allowed_classes": ["warrior", "archer", "scout", "worker"],
+  "allowed_races": ["human", "elf", "orc"]
+}

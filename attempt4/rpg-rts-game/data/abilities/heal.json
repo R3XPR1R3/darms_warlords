@@ -1,0 +1,17 @@
+{
+  "id": "heal",
+  "name": "Исцеление",
+  "description": "Восстанавливает здоровье союзника",
+  "type": "active",
+  "target_type": "ally",
+  "range": 100,
+  "cooldown": 5,
+  "mana_cost": 20,
+  "effects": [
+    {
+      "type": "heal",
+      "value": "caster.magic_attack",
+      "target": "single"
+    }
+  ]
+}

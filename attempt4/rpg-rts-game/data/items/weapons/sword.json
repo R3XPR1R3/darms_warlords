@@ -1,0 +1,23 @@
+{
+  "id": "sword",
+  "name": "Железный меч",
+  "description": "Надежное оружие ближнего боя",
+  "type": "weapon",
+  "subtype": "melee",
+  "rarity": "common",
+  "value": 50,
+  "weight": 3,
+  "durability": 100,
+  "max_durability": 100,
+  "requirements": {
+    "strength": 10
+  },
+  "stats": {
+    "melee_attack": 15,
+    "attack_speed": 1.2
+  },
+  "abilities": ["slash"],
+  "equippable_slot": "righthand",
+  "allowed_classes": ["warrior", "knight", "paladin"],
+  "allowed_races": ["human", "elf", "orc"]
+}

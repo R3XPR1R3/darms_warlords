@@ -1,0 +1,31 @@
+
+{
+  "id": "human",
+  "name": "Человек",
+  "description": "Сбалансированная раса с хорошими боевыми навыками и дополнительным слотом инвентаря",
+  "bonuses": {
+    "melee_attack": 3,
+    "inventory_slots": 1,
+    "learning_speed": 1.2
+  },
+  "penalties": {},
+  "can_breed_with": ["human", "elf"],
+  "base_stats": {
+    "health": 80,
+    "stamina": 100,
+    "mana": 20,
+    "speed": 2.0,
+    "vision": 120
+  },
+  "equipment_slots": {
+    "head": true,
+    "torso": true,
+    "lefthand": true,
+    "righthand": true,
+    "legs": true,
+    "feet": true,
+    "back": false,
+    "tail": false,
+    "accessory": true
+  }
+}

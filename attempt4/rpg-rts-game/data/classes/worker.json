@@ -1,0 +1,25 @@
+{
+  "id": "worker",
+  "name": "Рабочий",
+  "description": "Строитель и ремесленник",
+  "can_learn": true,
+  "learning_requirements": {
+    "time": 300,
+    "resources": {
+      "gold": 50
+    },
+    "building": "workshop"
+  },
+  "abilities": ["gather", "build", "craft"],
+  "restrictions": {
+    "fight": false,
+    "cast": false
+  },
+  "allowed_weapons": ["tool", "hammer"],
+  "allowed_armor": ["cloth", "leather"],
+  "stat_bonuses": {
+    "building_speed": 2.0,
+    "crafting_speed": 1.5
+  },
+  "learning_tree": ["engineer", "craftsman"]
+}

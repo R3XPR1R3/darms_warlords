@@ -1,0 +1,24 @@
+{
+  "id": "merlin",
+  "name": "Мерлин Великий",
+  "description": "Величайший маг всех времен",
+  "can_learn": false,
+  "is_hero": true,
+  "unique_abilities": ["meteor", "time_stop", "teleport_army"],
+  "allowed_weapons": ["staff", "wand", "orb"],
+  "allowed_armor": ["robe", "magic_armor"],
+  "stat_bonuses": {
+    "mana": 200,
+    "magic_attack": 50,
+    "intelligence": 25
+  },
+  "talent_tree": {
+    "destruction": ["fireball", "lightning", "meteor"],
+    "support": ["heal_army", "shield_all", "time_stop"],
+    "utility": ["teleport", "fly", "scry"]
+  },
+  "starting_equipment": {
+    "righthand": "merlin_staff",
+    "torso": "archmage_robe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "apple",
+  "name": "Яблоко",
+  "description": "Сочный фрукт, восстанавливает здоровье",
+  "type": "food",
+  "subtype": "fruit",
+  "rarity": "common",
+  "value": 5,
+  "weight": 0.2,
+  "stackable": true,
+  "max_stack": 20,
+  "usable": true,
+  "use_time": 2,
+  "effects": {
+    "health_restore": 25,
+    "stamina_restore": 10
+  },
+  "allowed_races": ["human", "elf", "orc"]
+}

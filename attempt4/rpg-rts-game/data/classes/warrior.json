@@ -1,0 +1,29 @@
+
+{
+  "id": "warrior",
+  "name": "Воин",
+  "description": "Боец ближнего боя со щитом и мечом",
+  "can_learn": true,
+  "learning_requirements": {
+    "time": 600,
+    "resources": {
+      "gold": 100
+    },
+    "building": "barracks",
+    "trainer": "veteran_warrior"
+  },
+  "abilities": ["gather", "fight_melee"],
+  "restrictions": {
+    "build": false,
+    "craft": false,
+    "cast": false
+  },
+  "allowed_weapons": ["sword", "axe", "mace", "spear", "shield"],
+  "allowed_armor": ["cloth", "leather", "chainmail", "plate"],
+  "stat_bonuses": {
+    "melee_attack": 5,
+    "defense": 3,
+    "health": 20
+  },
+  "learning_tree": ["knight", "berserker", "paladin"]
+}

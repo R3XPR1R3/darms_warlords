@@ -1,0 +1,29 @@
+{
+  "id": "mage",
+  "name": "Маг",
+  "description": "Владеет магическими способностями",
+  "can_learn": true,
+  "learning_requirements": {
+    "time": 900,
+    "resources": {
+      "gold": 200,
+      "mana_crystal": 1
+    },
+    "building": "mage_tower",
+    "trait": "magic_affinity"
+  },
+  "abilities": ["gather", "cast_magic"],
+  "restrictions": {
+    "build": false,
+    "craft": false,
+    "fight": false
+  },
+  "allowed_weapons": ["staff", "wand", "orb"],
+  "allowed_armor": ["cloth", "robe"],
+  "stat_bonuses": {
+    "mana": 100,
+    "magic_attack": 15,
+    "health": -10
+  },
+  "learning_tree": ["archmage", "battle_mage", "healer"]
+}

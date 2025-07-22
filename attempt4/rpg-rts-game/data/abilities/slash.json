@@ -1,0 +1,18 @@
+{
+  "id": "slash",
+  "name": "Рубящий удар",
+  "description": "Наносит урон мечом равный атаке в ближнем бою",
+  "type": "active",
+  "target_type": "enemy",
+  "range": 50,
+  "cooldown": 0,
+  "mana_cost": 0,
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "physical",
+      "value": "caster.melee_attack",
+      "target": "single"
+    }
+  ]
+}

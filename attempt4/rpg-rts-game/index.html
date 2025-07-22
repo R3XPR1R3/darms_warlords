@@ -1,0 +1,68 @@
+<!-- index.html - Главный файл -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG-RTS Game</title>
+    <link rel="stylesheet" href="src/ui/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="1200" height="800"></canvas>
+        
+        <!-- UI Overlay -->
+        <div id="ui-overlay">
+            <div id="resource-panel"></div>
+            <div id="unit-panel"></div>
+            <div id="build-menu"></div>
+            <div id="minimap"></div>
+        </div>
+        
+        <!-- Loading Screen -->
+        <div id="loading-screen">
+            <div class="loading-content">
+                <h1>🎮 RPG-RTS Game</h1>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <p id="loading-text">Initializing...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Engine -->
+    <script type="module" src="src/core/Engine.js"></script>
+    
+    <!-- Game Systems -->
+    <script type="module" src="src/systems/DataLoader.js"></script>
+    <script type="module" src="src/systems/ModLoader.js"></script>
+    
+    <!-- Main Game -->
+    <script type="module" src="src/Game.js"></script>
+    
+    <!-- Initialization -->
+    <script type="module">
+        import { Game } from './src/Game.js';
+        
+        window.addEventListener('load', async () => {
+            try {
+                const game = new Game('game-canvas');
+                await game.initialize();
+                game.start();
+                
+                // Hide loading screen
+                document.getElementById('loading-screen').style.display = 'none';
+                
+                // Global access for debugging
+                window.game = game;
+                
+                console.log('🎮 Game started successfully!');
+            } catch (error) {
+                console.error('❌ Failed to start game:', error);
+                document.getElementById('loading-text').textContent = 'Error: ' + error.message;
+            }
+        });
+    </script>
+</body>
+</html>

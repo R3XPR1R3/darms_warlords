@@ -1,0 +1,91 @@
+{
+  "id": "mage_tower",
+  "name": "Башня мага",
+  "description": "Обучает магов и исследует заклинания",
+  "type": "magical",
+  "category": "research",
+  "size": {
+    "width": 60,
+    "height": 60,
+    "tiles_width": 1,
+    "tiles_height": 1
+  },
+  "cost": {
+    "gold": 300,
+    "wood": 50,
+    "stone": 75,
+    "mana_crystal": 1,
+    "time": 60
+  },
+  "stats": {
+    "health": 400,
+    "max_health": 400,
+    "armor": 1,
+    "magic_armor": 10,
+    "sight_range": 250,
+    "mana": 100,
+    "max_mana": 100,
+    "mana_regeneration": 2
+  },
+  "requirements": {
+    "buildings": ["town_hall"],
+    "technologies": ["basic_magic"],
+    "resources": {
+      "mana_crystal": 1
+    }
+  },
+  "production": {
+    "units": [
+      {
+        "id": "apprentice_mage",
+        "name": "Ученик мага",
+        "cost": {
+          "gold": 120,
+          "mana_crystal": 1,
+          "food": 1
+        },
+        "time": 30
+      }
+    ],
+    "spells": [
+      {
+        "id": "fireball_scroll",
+        "name": "Свиток огненного шара",
+        "cost": {
+          "gold": 50,
+          "mana": 25
+        },
+        "time": 20
+      }
+    ],
+    "technologies": [
+      {
+        "id": "advanced_magic",
+        "name": "Продвинутая магия",
+        "description": "Открывает мощные заклинания",
+        "cost": {
+          "gold": 500,
+          "mana_crystal": 3
+        },
+        "time": 120
+      }
+    ]
+  },
+  "defense": {
+    "can_attack": true,
+    "attack_type": "magic",
+    "attack_damage": 25,
+    "attack_range": 200,
+    "attack_speed": 2.0
+  },
+  "abilities": [
+    {
+      "id": "mana_surge",
+      "name": "Всплеск маны",
+      "description": "Восстанавливает ману всем магам в области",
+      "cooldown": 90,
+      "range": 300,
+      "mana_cost": 50
+    }
+  ]
+}

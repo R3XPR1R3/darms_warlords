@@ -1,0 +1,32 @@
+{
+  "id": "engineer",
+  "name": "Инженер",
+  "description": "Строит продвинутые механизмы и ловушки",
+  "can_learn": true,
+  "learning_requirements": {
+    "time": 1200,
+    "resources": {
+      "gold": 300,
+      "iron": 50,
+      "blueprints": 1
+    },
+    "building": "engineering_workshop",
+    "prerequisite_class": "worker",
+    "min_intelligence": 15
+  },
+  "abilities": ["gather", "build", "craft", "build_advanced", "repair", "set_traps"],
+  "restrictions": {
+    "fight": false,
+    "cast": false,
+    "stealth": false
+  },
+  "allowed_weapons": ["tool", "hammer", "wrench", "crossbow"],
+  "allowed_armor": ["cloth", "leather", "metal_vest"],
+  "stat_bonuses": {
+    "building_speed": 3.0,
+    "crafting_speed": 2.5,
+    "intelligence": 10,
+    "trap_damage": 25
+  },
+  "learning_tree": ["master_engineer", "siege_engineer", "inventor"]
+}

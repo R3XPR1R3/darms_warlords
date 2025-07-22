@@ -1,0 +1,28 @@
+{
+  "id": "archer",
+  "name": "Лучник",
+  "description": "Мастер дальнего боя",
+  "can_learn": true,
+  "learning_requirements": {
+    "time": 450,
+    "resources": {
+      "gold": 80,
+      "wood": 20
+    },
+    "building": "archery_range"
+  },
+  "abilities": ["gather", "fight_ranged"],
+  "restrictions": {
+    "build": false,
+    "craft": false,
+    "cast": false
+  },
+  "allowed_weapons": ["bow", "crossbow", "dagger"],
+  "allowed_armor": ["cloth", "leather"],
+  "stat_bonuses": {
+    "ranged_attack": 8,
+    "vision": 40,
+    "speed": 0.5
+  },
+  "learning_tree": ["ranger", "marksman"]
+}

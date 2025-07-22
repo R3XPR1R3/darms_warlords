@@ -1,0 +1,52 @@
+{
+  "camera": {
+    "pan_left": ["ArrowLeft", "KeyA"],
+    "pan_right": ["ArrowRight", "KeyD"], 
+    "pan_up": ["ArrowUp", "KeyW"],
+    "pan_down": ["ArrowDown", "KeyS"],
+    "zoom_in": ["Equal", "NumpadAdd"],
+    "zoom_out": ["Minus", "NumpadSubtract"],
+    "reset_zoom": ["KeyR"]
+  },
+  "selection": {
+    "select_all": ["KeyA"],
+    "select_all_visible": ["KeyV"],
+    "select_all_of_type": ["KeyT"],
+    "clear_selection": ["Escape"],
+    "add_to_selection": ["ControlLeft", "ControlRight"],
+    "select_hero": ["KeyH"]
+  },
+  "units": {
+    "stop": ["KeyS"],
+    "hold_position": ["KeyH"],
+    "patrol": ["KeyP"],
+    "attack_move": ["KeyX"],
+    "formation_line": ["KeyL"],
+    "formation_box": ["KeyB"]
+  },
+  "buildings": {
+    "build_mode": ["KeyB"],
+    "cancel_build": ["Escape"],
+    "rotate_building": ["KeyR"]
+  },
+  "game": {
+    "pause": ["Space"],
+    "quick_save": ["F5"],
+    "quick_load": ["F9"],
+    "screenshot": ["F12"],
+    "toggle_ui": ["F1"],
+    "toggle_debug": ["F3"]
+  },
+  "hotkeys": {
+    "group_1": ["Digit1"],
+    "group_2": ["Digit2"],
+    "group_3": ["Digit3"],
+    "group_4": ["Digit4"],
+    "group_5": ["Digit5"],
+    "assign_group_1": ["ControlLeft+Digit1"],
+    "assign_group_2": ["ControlLeft+Digit2"],
+    "assign_group_3": ["ControlLeft+Digit3"],
+    "assign_group_4": ["ControlLeft+Digit4"],
+    "assign_group_5": ["ControlLeft+Digit5"]
+  }
+}

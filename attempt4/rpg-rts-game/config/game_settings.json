@@ -1,0 +1,39 @@
+{
+  "graphics": {
+    "resolution": {
+      "width": 1200,
+      "height": 800
+    },
+    "fullscreen": false,
+    "vsync": true,
+    "max_fps": 60,
+    "render_quality": "medium"
+  },
+  "audio": {
+    "master_volume": 1.0,
+    "music_volume": 0.7,
+    "sfx_volume": 0.8,
+    "voice_volume": 0.9
+  },
+  "gameplay": {
+    "auto_save_interval": 300,
+    "difficulty": "normal",
+    "tutorial_enabled": true,
+    "unit_response_volume": 0.8,
+    "camera_scroll_speed": 5.0,
+    "edge_scrolling": true
+  },
+  "ui": {
+    "show_health_bars": "damaged",
+    "show_resource_numbers": true,
+    "minimap_size": "medium",
+    "tooltip_delay": 500,
+    "unit_selection_limit": 12
+  },
+  "controls": {
+    "mouse_sensitivity": 1.0,
+    "camera_pan_speed": 1.0,
+    "zoom_speed": 1.0,
+    "double_click_time": 300
+  }
+}
